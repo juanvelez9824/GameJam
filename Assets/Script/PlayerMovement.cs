@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     public int side = 1;
 
     private Animator animator;
+    public ParticleSystem particulas;
 
     
 
@@ -185,6 +186,7 @@ public class PlayerMovement : MonoBehaviour
 
           // Activa el trigger de salto en el Animator
         animator.SetTrigger("Jump");
+        particulas.Play();
     }
 
     IEnumerator DisableMovement(float time)
