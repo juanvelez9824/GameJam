@@ -1,0 +1,3635 @@
+fileFormatVersion: 2
+guid: 4b5dc0f0a99aef242b73e6f894a81b09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: FurBall_Jump_11_256_1024_0
+  - first:
+      213: 21300002
+    second: FurBall_Jump_11_256_1024_1
+  - first:
+      213: 21300004
+    second: FurBall_Jump_11_256_1024_2
+  - first:
+      213: 21300006
+    second: FurBall_Jump_11_256_1024_3
+  - first:
+      213: 21300008
+    second: FurBall_Jump_11_256_1024_4
+  - first:
+      213: 21300010
+    second: FurBall_Jump_11_256_1024_5
+  - first:
+      213: 21300012
+    second: FurBall_Jump_11_256_1024_6
+  - first:
+      213: 21300014
+    second: FurBall_Jump_11_256_1024_7
+  - first:
+      213: 21300016
+    second: FurBall_Jump_11_256_1024_8
+  - first:
+      213: 21300018
+    second: FurBall_Jump_11_256_1024_9
+  - first:
+      213: 21300020
+    second: FurBall_Jump_11_256_1024_10
+  - first:
+      213: 21300022
+    second: FurBall_Jump_11_256_1024_11
+  - first:
+      213: 21300024
+    second: FurBall_Jump_11_256_1024_12
+  - first:
+      213: 21300026
+    second: FurBall_Jump_11_256_1024_13
+  - first:
+      213: 21300028
+    second: Furry_Jump_11_256_1024_0
+  - first:
+      213: 21300030
+    second: Furry_Jump_11_256_1024_1
+  - first:
+      213: 21300032
+    second: Furry_Jump_11_256_1024_2
+  - first:
+      213: 21300034
+    second: Furry_Jump_11_256_1024_3
+  - first:
+      213: 21300036
+    second: Furry_Jump_11_256_1024_4
+  - first:
+      213: 21300038
+    second: Furry_Jump_11_256_1024_5
+  - first:
+      213: 21300040
+    second: Furry_Jump_11_256_1024_6
+  - first:
+      213: 21300042
+    second: Furry_Jump_11_256_1024_7
+  - first:
+      213: 21300044
+    second: Furry_Jump_11_256_1024_8
+  - first:
+      213: 21300046
+    second: Furry_Jump_11_256_1024_9
+  - first:
+      213: 21300048
+    second: Furry_Jump_11_256_1024_10
+  - first:
+      213: 21300050
+    second: Furry_Jump_11_256_1024_11
+  - first:
+      213: 21300052
+    second: Furry_Jump_11_256_1024_12
+  - first:
+      213: 21300054
+    second: Furry_Jump_11_256_1024_13
+  - first:
+      213: 21300056
+    second: Furry_Jump_11_256_1024_14
+  - first:
+      213: 21300058
+    second: Furry_Jump_11_256_1024_15
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1002
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1011
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 994
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 987
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 988
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_5
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1002
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1000
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk1
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 765
+        width: 211
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_8
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1000
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_9
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 994
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 984
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle01
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 773
+        width: 228
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 986
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle02
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 780
+        width: 197
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_14
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 912
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_15
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 912
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 784
+        width: 216
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3457143b0a19e41aefd50c87e295c0
+      internalID: -1825957688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_17
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 912
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce32d6222624c3b43be3593372a87339
+      internalID: -688125034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_18
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 896
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738fa51000afb154a94e346739bce343
+      internalID: 203834050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 884
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f1f9f4729330748aec8d576274edc4
+      internalID: -173354332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_20
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 864
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d99112c2b6ccd4993797f1fd6f80b9
+      internalID: 1471501451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_21
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 836
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb691e4727577c944ba04b3ee3437a61
+      internalID: 452414996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 840
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fa69c9b8f19424494b214014e1146f
+      internalID: -236424518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_23
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 804
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd42c9a51e6b4440b7184d20282b2d6
+      internalID: -416649877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 780
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e13122a38c96945b09480c46c07630
+      internalID: -414081024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 784
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bd70457fdeba04a810447df65270c6
+      internalID: 1785112121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_26
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 780
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dec71e72fa104848a85d46a174b4cd6
+      internalID: -168876552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_27
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 784
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becef0b48ffb5b94faf993a5eaf866dc
+      internalID: 1064075546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_28
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 764
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec54dfdf01cd8e4b959e5776ff499ad
+      internalID: -1252485815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_29
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 767
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a5d54a7342e8244b5c66d917182227
+      internalID: 81710970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_30
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 760
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8520770677f6c4dad4372b98c4b41a
+      internalID: 1831528141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_31
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 750
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4de16c6d823bb48ba3df4e6368b6dd
+      internalID: 1415554296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_32
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 732
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f2c227ec7ec2644be1764e6d6b4843
+      internalID: 1554873837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_33
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 734
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b50c057c9e79047bf803ba664a80be
+      internalID: 1320958560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_34
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 737
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a200302549bc2b4aaa7a2fbdb4c0101
+      internalID: -355203750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_35
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 741
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4223444aa3ca441b3d3e4a6cc46bb0
+      internalID: -870352205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump2
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 544
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20d8fed2003e8b42a0c14098710c882
+      internalID: -1697509381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_37
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 752
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18d20c15e40ba143bad0841982ec3ca
+      internalID: -1498372540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk3
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 494
+        width: 224
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aeaf5fc14e2144790257471c2bf30d
+      internalID: -344814575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 557
+        width: 200
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c37c8aafb03ce439a1b71f66a1e06a
+      internalID: 652115664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump1
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 559
+        width: 177
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972531d86c9f3494c8b16d7164e7c09f
+      internalID: -1808668343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_41
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 740
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabfd2eed265cf645b24668eae79c8e7
+      internalID: -1056627187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_42
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 712
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a30eb5f86aa3c049af2829941e51ac7
+      internalID: -649684327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_43
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 692
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771917cd5a862c045b023c0e8478b532
+      internalID: -804690097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 656
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41717fe7a43cfb24eb7507dac95fc2f1
+      internalID: -241855436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_45
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 668
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5896ea920c7c37f4f9e6b73cf4f33b00
+      internalID: -1561210075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_46
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 628
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b521123ae6e53542b3cc653d0c9e515
+      internalID: -1256533022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_47
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 602
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396d2e1ebc5e94648aceae30db68805f
+      internalID: 851194345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_48
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 612
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe37f53d4bb4d734383bedcc002c787c
+      internalID: -1275841016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_49
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 604
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e1f2d6004abfd47a6f2bfe6d66968b
+      internalID: 1907294842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_50
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 564
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21aebf75c4c95e448a5de832ae00e823
+      internalID: 267530980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_51
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 572
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6761ccdb33f67e49a9ea22f4bbc6941
+      internalID: 418744788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_52
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 580
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b11dc0a8212784fb456a93cb08155a
+      internalID: -2124050312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 528
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847e9096c0f06a147b475dd159e0be4d
+      internalID: -1311932014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_54
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 556
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3c17e43473723498c8a5b46e2f05a5
+      internalID: 68097726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_55
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 556
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2ac7b25e734834387d822c34679765
+      internalID: 426316123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_56
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 556
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44986af934deb9f4daad541b008454bb
+      internalID: -1547834706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_57
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 536
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1120aa4fcd4974d929f6f608e787fe
+      internalID: -183883784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_58
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 552
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc0c469a2b373549a842765eff3c431
+      internalID: 615232439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 548
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d45f7aa12965e4baa7c7a4f9c92a3a
+      internalID: 1781186130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_60
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 544
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126242b0f964e56459be37de4ccb76fa
+      internalID: -2008451497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_61
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 544
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a4ab79728fd3548a4babae665cbab8
+      internalID: 1767156832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_62
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 548
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0423e6e39c075c245b6b32c04114bdba
+      internalID: -368563756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_63
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 544
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada1ae861d8987044b72e3d239b367d0
+      internalID: 650869668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_64
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 528
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34dcfc2fbccd5047968793a31058536
+      internalID: -927963117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_65
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 517
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442b5c9a0d4575c42b37fe86d36caee9
+      internalID: 1514283155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_66
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 528
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237627348c3c58a48a6aaee71362cb04
+      internalID: -1741338501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_67
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 532
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053ebf3f824e60546be853613be32b3d
+      internalID: -1993014491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_68
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 536
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30649766e136316448dac6583f19a4e0
+      internalID: -2033646178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump6
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 288
+        width: 224
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a0fa31aaddc8f4d9cf5b379b214d1b
+      internalID: 1134192932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_70
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 532
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952e52607a7fed440a32a0138de3ff57
+      internalID: -1701276406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_71
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 510
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1382b3707c29c40a872c5389283fb3
+      internalID: -375913570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_72
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 524
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46f0cd0c21791049b5b4d89bb151e03
+      internalID: 983101155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_73
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 507
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97da877198d1334f9377e21eb862c04
+      internalID: 1668808102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_74
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 518
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6051cd8dd2b374bad6ba11cf6694e2
+      internalID: 1665300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_75
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 516
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e206a7fa085954a40abf6a8ee0848515
+      internalID: 1381749096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_76
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 506
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bb143a2b0edb34b8e6e0bed93155d5
+      internalID: -1865434545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump5
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 308
+        width: 212
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a018b26615a1624190846d6209d36e0
+      internalID: -2072950965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_78
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 515
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073728913d94cff4d889c0be7f623bee
+      internalID: 111200117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_79
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 520
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8a49bc9c430224b8586b60d68293f2
+      internalID: 840455917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_80
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 503
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9da4978c723a0446af379e2c9920f95
+      internalID: -1376423331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 321
+        width: 216
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e36df584f19e2a42b29d2a01c60108d
+      internalID: -1847971969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_82
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 471
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d8092dae94da54eb9616cfd8050b5e
+      internalID: -2006910765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 324
+        width: 204
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5752ade4ce1c16d45a79bc110365056f
+      internalID: -315270116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_84
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 469
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3672cbb5fe5d040aff555b8b4ae340
+      internalID: -1852723115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 450
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6b4626b88e0fe45b2e0b1bd7f309b2
+      internalID: 1218066707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_86
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 460
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020f897f9effd0644b48f5fcd9de78c9
+      internalID: -925535600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_87
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 410
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f50a6f3c03b4642882ebe0eed71d91
+      internalID: 315844457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_88
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 452
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34029216145589b4d8da710092ce191e
+      internalID: 1196737070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_89
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 440
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397e51b2279c23f44bec17b77fc7b823
+      internalID: -1360594426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_90
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 424
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09aa9680bed16b4e9f3b41892e3656b
+      internalID: -2066591047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_91
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 392
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b9d083a94e1354b83f73d0041d7d4e
+      internalID: -1186071766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_92
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 372
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46a35b9f4f6e4049aeca377f5424f55
+      internalID: -1382970749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_93
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 376
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e934ced02e44d47b944c99dbe97eaf
+      internalID: 1454931024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_94
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 328
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa62aedd01147e45847992a43cfd9cc
+      internalID: 569664307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_95
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 328
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b4a3d8fd8e8024d91b0f3a707bd4d5
+      internalID: -958923826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_96
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 324
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74403dbe1cc9c53498627f5187994ea9
+      internalID: 1477652263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_97
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 324
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516b4a64e77fbcf4ca90fe35e392e728
+      internalID: 46752893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 312
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed20693bead9e8408b5ca61d0ec50dd
+      internalID: -19409514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_99
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 312
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d35d56c90e4a046b5c558e4de0f9aa
+      internalID: -374510063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_100
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 300
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d44ac8e775fee41a72bc69992a9b4b
+      internalID: 132316733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_101
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 320
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b45270b9055c4d4a896126b8ddecebe
+      internalID: -1741817144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_102
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 316
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cebd6a78cb3b64385fe831cf810c91
+      internalID: -711789245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_103
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 304
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00718a8413e63ba47846d75a544f0a42
+      internalID: 2041164151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_104
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 308
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfdbd2908698dc40a708100d0316ee4
+      internalID: 1594173037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_105
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 296
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b868b34c83bc29745b8b23227d4995a8
+      internalID: -1355469647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_106
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 296
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d047c94f6fc1b645b96b990af993541
+      internalID: 1408629513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_107
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 268
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec2955fe0a20db43b14719ee1785faf
+      internalID: -322301352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_108
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 273
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f34a59d7dbc68479a9d69a36f7fc80
+      internalID: -1458356219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_109
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 272
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18a5f005c415de44bf7c88004fe087c
+      internalID: -1351315986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_110
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 252
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e7fd63f8b954d44ac0b1b96b89c955
+      internalID: 781041582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_111
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 244
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2618b94ab238a3e47aaaf0db19458157
+      internalID: 278848995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_112
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 266
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaed513eb8555f9419d333a1aca0dcb6
+      internalID: 122471166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_113
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 258
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414b6c60078321f4b985bc08b32ac9a0
+      internalID: 1410483400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_114
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 247
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff1090af3e7d474aa619f9f6bceaafb
+      internalID: 2135363079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_115
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 226
+        width: 91
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e84e9a32b0f114c83908badb192dfd
+      internalID: 2014705465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump9
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 20
+        width: 208
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c9826a6ba6c884aa2abb104aed52f6
+      internalID: -2136069143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump10
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 40
+        width: 200
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed263120a84aed4793f92bc93a00286
+      internalID: -1044639280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_118
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 250
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37544c54b36e6a489b802bb5339027f
+      internalID: 1209592488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 66
+        width: 208
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb840d8ebd59ab4895a3eb66199e9d7
+      internalID: -687237522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_120
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 196
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4575e4e7851b284ea9d9f2798092567
+      internalID: -813188108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 21
+        width: 216
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2579ebd46275c2f46b8ed232e934f9dd
+      internalID: 632236988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_122
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 190
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0021458666a49794eb9eda1a08441958
+      internalID: 1581747920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_123
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 192
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8952e4a4b2af154b9986a2496fc9e90
+      internalID: -445158114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_124
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 152
+        width: 39
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8313abf26802cc49854043960e64f84
+      internalID: -1043548507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_125
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 180
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d182865a70a424419d39b01ad7bffae
+      internalID: -1735278447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_126
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 188
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1042ef78ea5426b4caa668d9a2dea162
+      internalID: -139885243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_127
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 172
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9f8cb9661c5574fa35c80db2d55690
+      internalID: -645840498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_128
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 148
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab9353da1502d049847101e8f974ce9
+      internalID: -900600952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_129
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 128
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594a7ee3017e03445864b8653a809d88
+      internalID: 243856331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_130
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 100
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c64c216b51546040969ac1b6949dd59
+      internalID: -834980625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_131
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 117
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67e01fae1d0db748bc084fe9439fd2b
+      internalID: 952338777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_132
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 100
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4032dcebe4032f843aed2eca4a2a5014
+      internalID: -947901831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_133
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 116
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90553cda63ed8a419bedfc2b63ee591
+      internalID: -1868826910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_134
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 88
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d122a57a7f019de479d34018753d14fe
+      internalID: 835967610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_135
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 104
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c765ffed7b17e44989d7f0c8b63d99a
+      internalID: -211385699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_136
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 92
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd5336ace4525c47a7d9ab9e06f8c0a
+      internalID: 21717973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_137
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 76
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bda8ffd1ad9e84492de80ed5271ac8
+      internalID: 1963037594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_138
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 44
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957bd701590d1a34ca04af1aff410bc8
+      internalID: 2052813363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_139
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 52
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898bfc8645890c747af0fea805aaf373
+      internalID: -1032741297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_140
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 52
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65d0442a3ebfb64e83b92dd82b89c2c
+      internalID: 2072522402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_141
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 44
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6433900b8d281a34aa7f9ce0ada5c255
+      internalID: 1667940798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_142
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 52
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e5375ab9db41b47bd998d54e7b543f
+      internalID: 91127703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_143
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3390e109e55acd34498745b19fc736d4
+      internalID: -1749312684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_144
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 40
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0a9c0ed763d4442b001eb8490c904f
+      internalID: -1625750057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_145
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 36
+        width: 68
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129c65d9f06a4fa4e9e1dc827da00f34
+      internalID: 638570755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_146
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 32
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d948a72a6fa41cd4a9866c5f454f1752
+      internalID: 1331147857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_147
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 32
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c68f4e370aebc4aa479cd70a8a3d26
+      internalID: -127935656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_148
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 24
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802de4021707008498da333d0b372573
+      internalID: -1364670100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_149
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ce1de1076875744a821d93f253048e
+      internalID: 1912102988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_150
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3708cc29a0965943b9283722643a814
+      internalID: 833932651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_151
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 28
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7867e46463a500c43ab97418b7c4a6e9
+      internalID: -271222567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_152
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 24
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197648db3ff2ace43ba28bd669898eaa
+      internalID: -575690569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_153
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 20
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9104b17588aecc45aa9dd18221d4292
+      internalID: 1599702456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furry_Jump_11_256_1024_154
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 24
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343a0963e411d9c4a9accee475894546
+      internalID: 225291412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6da6a06a5d73b3547a278066655ea37e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Furry_Jump_11_256_1024_0: 21300028
+      Furry_Jump_11_256_1024_1: 21300030
+      Furry_Jump_11_256_1024_10: 21300048
+      Furry_Jump_11_256_1024_100: 132316733
+      Furry_Jump_11_256_1024_101: -1741817144
+      Furry_Jump_11_256_1024_102: -711789245
+      Furry_Jump_11_256_1024_103: 2041164151
+      Furry_Jump_11_256_1024_104: 1594173037
+      Furry_Jump_11_256_1024_105: -1355469647
+      Furry_Jump_11_256_1024_106: 1408629513
+      Furry_Jump_11_256_1024_107: -322301352
+      Furry_Jump_11_256_1024_108: -1458356219
+      Furry_Jump_11_256_1024_109: -1351315986
+      Furry_Jump_11_256_1024_110: 781041582
+      Furry_Jump_11_256_1024_111: 278848995
+      Furry_Jump_11_256_1024_112: 122471166
+      Furry_Jump_11_256_1024_113: 1410483400
+      Furry_Jump_11_256_1024_114: 2135363079
+      Furry_Jump_11_256_1024_115: 2014705465
+      Furry_Jump_11_256_1024_118: 1209592488
+      Furry_Jump_11_256_1024_12: 21300052
+      Furry_Jump_11_256_1024_120: -813188108
+      Furry_Jump_11_256_1024_122: 1581747920
+      Furry_Jump_11_256_1024_123: -445158114
+      Furry_Jump_11_256_1024_124: -1043548507
+      Furry_Jump_11_256_1024_125: -1735278447
+      Furry_Jump_11_256_1024_126: -139885243
+      Furry_Jump_11_256_1024_127: -645840498
+      Furry_Jump_11_256_1024_128: -900600952
+      Furry_Jump_11_256_1024_129: 243856331
+      Furry_Jump_11_256_1024_130: -834980625
+      Furry_Jump_11_256_1024_131: 952338777
+      Furry_Jump_11_256_1024_132: -947901831
+      Furry_Jump_11_256_1024_133: -1868826910
+      Furry_Jump_11_256_1024_134: 835967610
+      Furry_Jump_11_256_1024_135: -211385699
+      Furry_Jump_11_256_1024_136: 21717973
+      Furry_Jump_11_256_1024_137: 1963037594
+      Furry_Jump_11_256_1024_138: 2052813363
+      Furry_Jump_11_256_1024_139: -1032741297
+      Furry_Jump_11_256_1024_14: 21300056
+      Furry_Jump_11_256_1024_140: 2072522402
+      Furry_Jump_11_256_1024_141: 1667940798
+      Furry_Jump_11_256_1024_142: 91127703
+      Furry_Jump_11_256_1024_143: -1749312684
+      Furry_Jump_11_256_1024_144: -1625750057
+      Furry_Jump_11_256_1024_145: 638570755
+      Furry_Jump_11_256_1024_146: 1331147857
+      Furry_Jump_11_256_1024_147: -127935656
+      Furry_Jump_11_256_1024_148: -1364670100
+      Furry_Jump_11_256_1024_149: 1912102988
+      Furry_Jump_11_256_1024_15: 21300058
+      Furry_Jump_11_256_1024_150: 833932651
+      Furry_Jump_11_256_1024_151: -271222567
+      Furry_Jump_11_256_1024_152: -575690569
+      Furry_Jump_11_256_1024_153: 1599702456
+      Furry_Jump_11_256_1024_154: 225291412
+      Furry_Jump_11_256_1024_17: -688125034
+      Furry_Jump_11_256_1024_18: 203834050
+      Furry_Jump_11_256_1024_19: -173354332
+      Furry_Jump_11_256_1024_2: 21300032
+      Furry_Jump_11_256_1024_20: 1471501451
+      Furry_Jump_11_256_1024_21: 452414996
+      Furry_Jump_11_256_1024_22: -236424518
+      Furry_Jump_11_256_1024_23: -416649877
+      Furry_Jump_11_256_1024_24: -414081024
+      Furry_Jump_11_256_1024_25: 1785112121
+      Furry_Jump_11_256_1024_26: -168876552
+      Furry_Jump_11_256_1024_27: 1064075546
+      Furry_Jump_11_256_1024_28: -1252485815
+      Furry_Jump_11_256_1024_29: 81710970
+      Furry_Jump_11_256_1024_3: 21300034
+      Furry_Jump_11_256_1024_30: 1831528141
+      Furry_Jump_11_256_1024_31: 1415554296
+      Furry_Jump_11_256_1024_32: 1554873837
+      Furry_Jump_11_256_1024_33: 1320958560
+      Furry_Jump_11_256_1024_34: -355203750
+      Furry_Jump_11_256_1024_35: -870352205
+      Furry_Jump_11_256_1024_37: -1498372540
+      Furry_Jump_11_256_1024_4: 21300036
+      Furry_Jump_11_256_1024_41: -1056627187
+      Furry_Jump_11_256_1024_42: -649684327
+      Furry_Jump_11_256_1024_43: -804690097
+      Furry_Jump_11_256_1024_44: -241855436
+      Furry_Jump_11_256_1024_45: -1561210075
+      Furry_Jump_11_256_1024_46: -1256533022
+      Furry_Jump_11_256_1024_47: 851194345
+      Furry_Jump_11_256_1024_48: -1275841016
+      Furry_Jump_11_256_1024_49: 1907294842
+      Furry_Jump_11_256_1024_5: 21300038
+      Furry_Jump_11_256_1024_50: 267530980
+      Furry_Jump_11_256_1024_51: 418744788
+      Furry_Jump_11_256_1024_52: -2124050312
+      Furry_Jump_11_256_1024_53: -1311932014
+      Furry_Jump_11_256_1024_54: 68097726
+      Furry_Jump_11_256_1024_55: 426316123
+      Furry_Jump_11_256_1024_56: -1547834706
+      Furry_Jump_11_256_1024_57: -183883784
+      Furry_Jump_11_256_1024_58: 615232439
+      Furry_Jump_11_256_1024_59: 1781186130
+      Furry_Jump_11_256_1024_6: 21300040
+      Furry_Jump_11_256_1024_60: -2008451497
+      Furry_Jump_11_256_1024_61: 1767156832
+      Furry_Jump_11_256_1024_62: -368563756
+      Furry_Jump_11_256_1024_63: 650869668
+      Furry_Jump_11_256_1024_64: -927963117
+      Furry_Jump_11_256_1024_65: 1514283155
+      Furry_Jump_11_256_1024_66: -1741338501
+      Furry_Jump_11_256_1024_67: -1993014491
+      Furry_Jump_11_256_1024_68: -2033646178
+      Furry_Jump_11_256_1024_70: -1701276406
+      Furry_Jump_11_256_1024_71: -375913570
+      Furry_Jump_11_256_1024_72: 983101155
+      Furry_Jump_11_256_1024_73: 1668808102
+      Furry_Jump_11_256_1024_74: 1665300106
+      Furry_Jump_11_256_1024_75: 1381749096
+      Furry_Jump_11_256_1024_76: -1865434545
+      Furry_Jump_11_256_1024_78: 111200117
+      Furry_Jump_11_256_1024_79: 840455917
+      Furry_Jump_11_256_1024_8: 21300044
+      Furry_Jump_11_256_1024_80: -1376423331
+      Furry_Jump_11_256_1024_82: -2006910765
+      Furry_Jump_11_256_1024_84: -1852723115
+      Furry_Jump_11_256_1024_85: 1218066707
+      Furry_Jump_11_256_1024_86: -925535600
+      Furry_Jump_11_256_1024_87: 315844457
+      Furry_Jump_11_256_1024_88: 1196737070
+      Furry_Jump_11_256_1024_89: -1360594426
+      Furry_Jump_11_256_1024_9: 21300046
+      Furry_Jump_11_256_1024_90: -2066591047
+      Furry_Jump_11_256_1024_91: -1186071766
+      Furry_Jump_11_256_1024_92: -1382970749
+      Furry_Jump_11_256_1024_93: 1454931024
+      Furry_Jump_11_256_1024_94: 569664307
+      Furry_Jump_11_256_1024_95: -958923826
+      Furry_Jump_11_256_1024_96: 1477652263
+      Furry_Jump_11_256_1024_97: 46752893
+      Furry_Jump_11_256_1024_98: -19409514
+      Furry_Jump_11_256_1024_99: -374510063
+      Jump: 652115664
+      Jump1: -1808668343
+      Jump10: -1044639280
+      Jump2: -1697509381
+      Jump3: -1847971969
+      Jump4: -315270116
+      Jump5: -2072950965
+      Jump6: 1134192932
+      Jump7: -687237522
+      Jump8: 632236988
+      Jump9: -2136069143
+      idle01: 21300050
+      idle02: 21300054
+      walk: -1825957688
+      walk1: 21300042
+      walk3: -344814575
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

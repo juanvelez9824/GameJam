@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
     public int side = 1;
 
+    
 
     
 
@@ -45,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
         Vector2 dir = new Vector2(x, y);
-       
+        
         Walk(dir);
         FlipSprite(x);
 
@@ -122,7 +123,7 @@ public class PlayerMovement : MonoBehaviour
             side = -1;
         }
 
-        
+       
     }
 
     private void WallJump()
