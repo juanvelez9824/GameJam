@@ -5,11 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class CameraUpForward : MonoBehaviour
 {
-    public float initialSpeed = 1.0f;  // Velocidad inicial de la c·mara
-    public float speedIncreaseInterval = 10f;  // Cada cu·ntas unidades de Y aumenta la velocidad
-    public float speedIncreaseAmount = 0.5f;  // Cu·nto aumenta la velocidad en cada intervalo
-    public float bottomThreshold = -10f; // Distancia debajo de la c·mara para reiniciar
+    public float initialSpeed = 1.0f;  // Velocidad inicial de la c√°mara
+    public float speedIncreaseInterval = 10f;  // Cada cu√°ntas unidades de Y aumenta la velocidad
+    public float speedIncreaseAmount = 0.5f;  // Cu√°nto aumenta la velocidad en cada intervalo
+    public float bottomThreshold = -10f; // Distancia debajo de la c√°mara para reiniciar
+    public float upperLimit = 100f; // L√≠mite superior de la c√°mara
 
+    private bool isPanelClosed = false;
 
     private float currentSpeed;
     private float lastSpeedIncreaseY;
@@ -26,13 +28,20 @@ public class CameraUpForward : MonoBehaviour
 
     void Update()
     {
-        // Mueve la c·mara hacia arriba
-        transform.Translate(Vector3.up * currentSpeed * Time.deltaTime);
-
-        // Verifica si es momento de aumentar la velocidad
-        if (transform.position.y - lastSpeedIncreaseY >= speedIncreaseInterval)
+        // Mueve la c√°mara solo si el panel est√° cerrado
+        if (isPanelClosed)
         {
-            IncreaseSpeed();
+            if (transform.position.y < upperLimit)
+            {
+                // Mueve la c√°mara hacia arriba
+                transform.Translate(Vector3.up * currentSpeed * Time.deltaTime);
+
+                // Verifica si es momento de aumentar la velocidad
+                if (transform.position.y - lastSpeedIncreaseY >= speedIncreaseInterval)
+                {
+                    IncreaseSpeed();
+                }
+            }
         }
 
         CheckPlayerVisibility();
@@ -51,7 +60,7 @@ public class CameraUpForward : MonoBehaviour
         {
             Vector3 viewportPosition = cam.WorldToViewportPoint(playerTransform.position);
 
-            // Si el jugador est· por debajo del umbral o fuera de la vista horizontalmente
+            // Si el jugador est√° por debajo del umbral o fuera de la vista horizontalmente
             if (viewportPosition.y < 0 && playerTransform.position.y < transform.position.y + bottomThreshold ||
                 viewportPosition.x < 0 || viewportPosition.x > 1)
             {
@@ -64,5 +73,11 @@ public class CameraUpForward : MonoBehaviour
     {
         Debug.Log("Jugador fuera de rango. Reiniciando partida...");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    // M√©todo que se llama cuando el panel se cierra
+    public void OnPanelClosed()
+    {
+        isPanelClosed = true;
     }
 }
