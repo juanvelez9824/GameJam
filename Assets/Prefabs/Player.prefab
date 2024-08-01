@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7276593262381244061}
   - component: {fileID: 7276593262381244062}
   - component: {fileID: 7276593262381244063}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -147,7 +147,6 @@ MonoBehaviour:
   wallJumped: 0
   wallSlide: 0
   side: 1
-  particulas: {fileID: 3098531628765865275}
 --- !u!114 &7276593262381244063
 MonoBehaviour:
   m_ObjectHideFlags: 0
