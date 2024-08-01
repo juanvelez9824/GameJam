@@ -1,35 +1,36 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class PauseMenuManager : MonoBehaviour
+public class PauseManager : MonoBehaviour
 {
-    public string menuSceneName = "Menu";
-    private bool isMenuLoaded = false;
+    public GameObject menuPrefab; // Asigna el prefab del Canvas aquí
+    private GameObject menuInstance;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape)) // O cualquier otra tecla para pausar
         {
-            if (isMenuLoaded)
+            if (menuInstance == null)
             {
-                UnloadMenu();
+                ShowMenu();
             }
             else
             {
-                LoadMenu();
+                HideMenu();
             }
         }
     }
 
-    public void LoadMenu()
+    public void ShowMenu()
     {
-        SceneManager.LoadScene(menuSceneName, LoadSceneMode.Additive);
-        isMenuLoaded = true;
+        menuInstance = Instantiate(menuPrefab);
+        // Pausar el juego si es necesario
+        Time.timeScale = 0f;
     }
 
-    public void UnloadMenu()
+    public void HideMenu()
     {
-        SceneManager.UnloadSceneAsync(menuSceneName);
-        isMenuLoaded = false;
+        Destroy(menuInstance);
+        // Reanudar el juego si es necesario
+        Time.timeScale = 1f;
     }
 }
