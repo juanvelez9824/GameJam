@@ -26,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
 
     public int side = 1;
 
+    [SerializeField] private ParticleSystem particulas;
+
     
 
     
@@ -183,7 +185,9 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x, 0);
         rb.velocity += dir * jumpForce;
 
-          // Activa el trigger de salto en el Animator
+        particulas.Play();
+
+         
         
     }
 
