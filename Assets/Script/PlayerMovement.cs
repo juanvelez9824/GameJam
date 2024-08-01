@@ -26,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
 
     public int side = 1;
 
-    private Animator animator;
 
     
 
@@ -38,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
         coll = GetComponent<Collision>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
+       
     }
 
     void Update()
@@ -46,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
         Vector2 dir = new Vector2(x, y);
-        animator.SetFloat("Horizontal",Mathf.Abs(x) );
+       
         Walk(dir);
         FlipSprite(x);
 
@@ -123,7 +122,7 @@ public class PlayerMovement : MonoBehaviour
             side = -1;
         }
 
-        UpdateAnimations();
+        
     }
 
     private void WallJump()
@@ -184,7 +183,7 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity += dir * jumpForce;
 
           // Activa el trigger de salto en el Animator
-        animator.SetTrigger("Jump");
+        
     }
 
     IEnumerator DisableMovement(float time)
@@ -225,22 +224,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void UpdateAnimations()
-{
-    // Verifica si el personaje está en el suelo
-    bool isGrounded = coll.onGround;
-    
-    // Verifica si el personaje está saltando (velocidad vertical positiva)
-    bool isJumping = rb.velocity.y > 0.1f;
-    
-    // Verifica si el personaje está cayendo (velocidad vertical negativa)
-    bool isFalling = rb.velocity.y < -0.1f;
 
-    // Actualiza los parámetros del Animator
-    animator.SetBool("Ground", isGrounded);
-    animator.SetBool("IsJumping", isJumping);
-    animator.SetBool("IsFalling", isFalling);
-}
 
 
 
