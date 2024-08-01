@@ -4,7 +4,7 @@ using System;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager Instance;
+   public static AudioManager Instance;
    public Sound[] musicSounds, sfxSounds;
    public AudioSource musicSource, sfxSource;
 
