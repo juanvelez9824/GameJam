@@ -4,14 +4,14 @@ using System;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager Instance;
+   public static AudioManager Instance;
    public Sound[] musicSounds, sfxSounds;
    public AudioSource musicSource, sfxSource;
 
    public AudioClip Theme;
-    public AudioClip Death;
-    public AudioClip Jump;
-    public AudioClip Win;
+   public AudioClip Death;
+   public AudioClip Jump;
+   public AudioClip Win;
 
 
 
