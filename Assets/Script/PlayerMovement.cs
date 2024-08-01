@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
 
     public int side = 1;
 
-    private Animator animator;
+    
 
     [SerializeField] private ParticleSystem particulas;
 
@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
         coll = GetComponent<Collision>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        animator=GetComponent<Animator>();
+       
        
     }
 
@@ -84,7 +84,7 @@ public class PlayerMovement : MonoBehaviour
             side = -1;
         }
 
-        UpdateAnimations();
+        
        
     }
 
@@ -148,12 +148,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void UpdateAnimations()
-    {
-        bool Groud = coll.onGround;
-
-        animator.SetBool("Ground", Groud);
-    }
+    
 
 
 
