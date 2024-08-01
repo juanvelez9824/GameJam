@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     private Collision coll;
     [HideInInspector]
     public Rigidbody2D rb;
+    AudioManager audiomanager;
 
     [Header("Stats")]
     public float speed = 10;
@@ -25,7 +26,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private ParticleSystem particulas;
 
     
-
+    private void Awake() {
+        
+        audiomanager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     
 
     //private int jumpsRemainig =1;
@@ -105,7 +109,7 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity += dir * jumpForce;
 
         particulas.Play();
-
+        audiomanager.PlaySFX(audiomanager.Jump);
          
         
     }

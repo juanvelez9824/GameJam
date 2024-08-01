@@ -9,9 +9,9 @@ public class AudioManager : MonoBehaviour
    public AudioSource musicSource, sfxSource;
 
    public AudioClip Theme;
-    public AudioClip Death;
-    public AudioClip Jump;
-    public AudioClip Win;
+   public AudioClip Death;
+   public AudioClip Jump;
+   public AudioClip Win;
 
 
 
