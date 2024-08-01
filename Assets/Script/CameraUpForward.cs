@@ -5,17 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class CameraUpForward : MonoBehaviour
 {
-    public float initialSpeed = 1.0f;  // Velocidad inicial de la cámara
-    public float speedIncreaseInterval = 10f;  // Cada cuántas unidades de Y aumenta la velocidad
-    public float speedIncreaseAmount = 0.5f;  // Cuánto aumenta la velocidad en cada intervalo
-    public float bottomThreshold = -10f; // Distancia debajo de la cámara para reiniciar
-    public float stopPositionY = 140.11f;
+    public float initialSpeed = 1.0f;  // Velocidad inicial de la cÃ¡mara
+    public float speedIncreaseInterval = 10f;  // Cada cuÃ¡ntas unidades de Y aumenta la velocidad
+    public float speedIncreaseAmount = 0.5f;  // CuÃ¡nto aumenta la velocidad en cada intervalo
+    public float bottomThreshold = -10f; // Distancia debajo de la cÃ¡mara para reiniciar
+    public float upperLimit = 100f; // LÃ­mite superior de la cÃ¡mara
+
+    private bool isPanelClosed = false;
 
     private float currentSpeed;
     private float lastSpeedIncreaseY;
     private Camera cam;
     private Transform playerTransform;
-    private bool isCameraStopped = false;
 
     void Start()
     {
@@ -27,25 +28,23 @@ public class CameraUpForward : MonoBehaviour
 
     void Update()
     {
-        if (!isCameraStopped)
+        // Mueve la cÃ¡mara solo si el panel estÃ¡ cerrado
+        if (isPanelClosed)
         {
-            // Mueve la cámara hacia arriba
-            MovementCamera();
-
-
-
-
-        // Verifica si es momento de aumentar la velocidad
-        if (transform.position.y - lastSpeedIncreaseY >= speedIncreaseInterval)
-        {
-            IncreaseSpeed();
-        }
-            if (transform.position.y >= stopPositionY)
+            if (transform.position.y < upperLimit)
             {
-                StopCamera();
+                // Mueve la cÃ¡mara hacia arriba
+                transform.Translate(Vector3.up * currentSpeed * Time.deltaTime);
+
+                // Verifica si es momento de aumentar la velocidad
+                if (transform.position.y - lastSpeedIncreaseY >= speedIncreaseInterval)
+                {
+                    IncreaseSpeed();
+                }
             }
         }
-        //CheckPlayerVisibility();
+
+        CheckPlayerVisibility();
     }
 
     void IncreaseSpeed()
@@ -55,27 +54,13 @@ public class CameraUpForward : MonoBehaviour
         Debug.Log($"Velocidad aumentada a: {currentSpeed}");
     }
 
-    void MovementCamera()
-    {
-        Vector3 newPosition = transform.position + Vector3.up * currentSpeed * Time.deltaTime;
-        newPosition.y = Mathf.Min(newPosition.y, stopPositionY); // Asegura que no sobrepase la posición de parada
-        transform.position = newPosition;
-    }
-    void StopCamera()
-    {
-        isCameraStopped = true;
-        currentSpeed = 0;
-        Debug.Log("Cámara detenida en Y = " + stopPositionY);
-    }
-}
-
-    /*void CheckPlayerVisibility()
+    void CheckPlayerVisibility()
     {
         if (playerTransform != null)
         {
             Vector3 viewportPosition = cam.WorldToViewportPoint(playerTransform.position);
 
-            // Si el jugador está por debajo del umbral o fuera de la vista horizontalmente
+            // Si el jugador estÃ¡ por debajo del umbral o fuera de la vista horizontalmente
             if (viewportPosition.y < 0 && playerTransform.position.y < transform.position.y + bottomThreshold ||
                 viewportPosition.x < 0 || viewportPosition.x > 1)
             {
@@ -89,5 +74,10 @@ public class CameraUpForward : MonoBehaviour
         Debug.Log("Jugador fuera de rango. Reiniciando partida...");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    // MÃ©todo que se llama cuando el panel se cierra
+    public void OnPanelClosed()
+    {
+        isPanelClosed = true;
+    }
 }
-    */
