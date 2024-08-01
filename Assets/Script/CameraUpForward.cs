@@ -9,12 +9,13 @@ public class CameraUpForward : MonoBehaviour
     public float speedIncreaseInterval = 10f;  // Cada cuántas unidades de Y aumenta la velocidad
     public float speedIncreaseAmount = 0.5f;  // Cuánto aumenta la velocidad en cada intervalo
     public float bottomThreshold = -10f; // Distancia debajo de la cámara para reiniciar
-
+    public float stopPositionY = 140.11f;
 
     private float currentSpeed;
     private float lastSpeedIncreaseY;
     private Camera cam;
     private Transform playerTransform;
+    private bool isCameraStopped = false;
 
     void Start()
     {
@@ -26,16 +27,25 @@ public class CameraUpForward : MonoBehaviour
 
     void Update()
     {
-        // Mueve la cámara hacia arriba
-        transform.Translate(Vector3.up * currentSpeed * Time.deltaTime);
+        if (!isCameraStopped)
+        {
+            // Mueve la cámara hacia arriba
+            MovementCamera();
+
+
+
 
         // Verifica si es momento de aumentar la velocidad
         if (transform.position.y - lastSpeedIncreaseY >= speedIncreaseInterval)
         {
             IncreaseSpeed();
         }
-
-        CheckPlayerVisibility();
+            if (transform.position.y >= stopPositionY)
+            {
+                StopCamera();
+            }
+        }
+        //CheckPlayerVisibility();
     }
 
     void IncreaseSpeed()
@@ -45,7 +55,21 @@ public class CameraUpForward : MonoBehaviour
         Debug.Log($"Velocidad aumentada a: {currentSpeed}");
     }
 
-    void CheckPlayerVisibility()
+    void MovementCamera()
+    {
+        Vector3 newPosition = transform.position + Vector3.up * currentSpeed * Time.deltaTime;
+        newPosition.y = Mathf.Min(newPosition.y, stopPositionY); // Asegura que no sobrepase la posición de parada
+        transform.position = newPosition;
+    }
+    void StopCamera()
+    {
+        isCameraStopped = true;
+        currentSpeed = 0;
+        Debug.Log("Cámara detenida en Y = " + stopPositionY);
+    }
+}
+
+    /*void CheckPlayerVisibility()
     {
         if (playerTransform != null)
         {
@@ -66,3 +90,4 @@ public class CameraUpForward : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
+    */
