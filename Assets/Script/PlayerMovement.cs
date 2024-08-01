@@ -184,8 +184,6 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x, 0);
         rb.velocity += dir * jumpForce;
 
-          // Activa el trigger de salto en el Animator
-        animator.SetTrigger("Jump");
         particulas.Play();
     }
 
@@ -233,15 +231,15 @@ public class PlayerMovement : MonoBehaviour
     bool isGrounded = coll.onGround;
     
     // Verifica si el personaje está saltando (velocidad vertical positiva)
-    bool isJumping = rb.velocity.y > 0.1f;
+  //  bool isJumping = rb.velocity.y > 0.1f;
     
     // Verifica si el personaje está cayendo (velocidad vertical negativa)
-    bool isFalling = rb.velocity.y < -0.1f;
+  //  bool isFalling = rb.velocity.y < -0.1f;
 
     // Actualiza los parámetros del Animator
     animator.SetBool("Ground", isGrounded);
-    animator.SetBool("IsJumping", isJumping);
-    animator.SetBool("IsFalling", isFalling);
+   // animator.SetBool("IsJumping", isJumping);
+   // animator.SetBool("IsFalling", isFalling);
 }
 
 
