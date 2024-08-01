@@ -27,7 +27,6 @@ public class PlayerMovement : MonoBehaviour
     public int side = 1;
 
     
-    public ParticleSystem particulas;
 
     
 
@@ -124,7 +123,7 @@ public class PlayerMovement : MonoBehaviour
             side = -1;
         }
 
-      
+       
     }
 
     private void WallJump()
@@ -184,7 +183,8 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x, 0);
         rb.velocity += dir * jumpForce;
 
-        particulas.Play();
+          // Activa el trigger de salto en el Animator
+        
     }
 
     IEnumerator DisableMovement(float time)
