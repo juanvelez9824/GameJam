@@ -34,20 +34,28 @@ public class AudioManager : MonoBehaviour
         musicSource.Play();
     }
 
+    [Serializable]
+    public class Sound
+    {
+        public string name;
+        public AudioClip clip;
+    }
+
     public void PlayMusic(string name)
     {
-          Sound s = Array.Find(musicSounds, (s) => s.name == name);
+        Sound s = Array.Find(musicSounds, sound => sound.name == name);
 
-          if (s != null)
-          {
-            Debug.Log("Sound not found");
-          }
-          else 
-          {
+        if (s == null)
+        {
+            Debug.LogWarning("Sound not found: " + name);
+        }
+        else
+        {
             musicSource.clip = s.clip;
             musicSource.Play();
-          }
+        }
     }
+
 
     
     public void PlaySFX(AudioClip clip)
