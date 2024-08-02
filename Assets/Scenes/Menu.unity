@@ -2117,6 +2117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bea03a03a5acd2c4a874868bf847eabf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicName: Nivel
 --- !u!222 &714369094
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6476,12 +6477,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSounds:
-  - name: 
-    clip: {fileID: 0}
+  - name: Nivel
+    clip: {fileID: 8300000, guid: 48296a14037d9404c9e4f331900ba657, type: 3}
   sfxSounds: []
   musicSource: {fileID: 1682705995}
   sfxSource: {fileID: 287212270}
-  Theme: {fileID: 8300000, guid: de70bc711b83f8644888c6d78adc5951, type: 3}
+  Theme: {fileID: 8300000, guid: d3c7dc6af75b6b448bb9388231b778fc, type: 3}
   Death: {fileID: 8300000, guid: 2c4688127b888904d9ae09bc6ebb731c, type: 3}
   Jump: {fileID: 8300000, guid: 9d28afe7ae0b56543839f187db867968, type: 3}
   Win: {fileID: 8300000, guid: 6cf2794a2648f974ea9f2f2319b5db39, type: 3}
