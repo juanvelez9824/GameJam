@@ -30,7 +30,7 @@ public class AudioManager : MonoBehaviour
 
     private void Start() 
     {
-        musicSource.clip = Theme;
+        musicSource.clip = Theme;// musica que suene al inicio
         musicSource.Play();
     }
 

@@ -1,36 +1,50 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseManager : MonoBehaviour
 {
-    public GameObject menuPrefab; // Asigna el prefab del Canvas aquí
-    private GameObject menuInstance;
+    [SerializeField] GameObject menuPause;
 
-    void Update()
+
+    public bool pauseGame = false;
+
+    public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) // O cualquier otra tecla para pausar
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (menuInstance == null)
+            if (pauseGame)
             {
-                ShowMenu();
+                Resume();
             }
             else
             {
-                HideMenu();
+                Pausa();
             }
         }
+           
     }
-
-    public void ShowMenu()
+    public void Pausa()
     {
-        menuInstance = Instantiate(menuPrefab);
-        // Pausar el juego si es necesario
+        pauseGame = true;
         Time.timeScale = 0f;
+        //buttonPause.SetActive(false);
+        menuPause.SetActive(true);
     }
 
-    public void HideMenu()
+    public void Resume()
     {
-        Destroy(menuInstance);
-        // Reanudar el juego si es necesario
+        pauseGame = false;
         Time.timeScale = 1f;
+        menuPause.SetActive(false);
     }
+
+    public void Restart()
+    {
+        pauseGame = false;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    
+    
 }

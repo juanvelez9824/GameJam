@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+using TMPro;
+
 public class CameraUpForward : MonoBehaviour
 {
     public float initialSpeed = 1.0f;  // Velocidad inicial de la cámara
@@ -10,6 +12,11 @@ public class CameraUpForward : MonoBehaviour
     public float speedIncreaseAmount = 0.5f;  // Cuánto aumenta la velocidad en cada intervalo
     public float bottomThreshold = -10f; // Distancia debajo de la cámara para reiniciar
     public float upperLimit = 100f; // Límite superior de la cámara
+    public float endGameHeight = 10.11f;
+    public TextMeshProUGUI congratulationsText;
+
+
+
 
     private bool isPanelClosed = false;
 
@@ -17,6 +24,7 @@ public class CameraUpForward : MonoBehaviour
     private float lastSpeedIncreaseY;
     private Camera cam;
     private Transform playerTransform;
+    
 
     void Start()
     {
@@ -24,6 +32,14 @@ public class CameraUpForward : MonoBehaviour
         lastSpeedIncreaseY = transform.position.y;
         cam = GetComponent<Camera>();
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+
+        if (congratulationsText != null)
+        {
+            congratulationsText.gameObject.SetActive(false);
+        }
+
+
+
     }
 
     void Update()
@@ -43,8 +59,16 @@ public class CameraUpForward : MonoBehaviour
                 }
             }
         }
-
+      
         CheckPlayerVisibility();
+
+        
+        if (transform.position.y >= endGameHeight)
+        {
+
+            ShowCongratulations();
+        }
+
     }
 
     void IncreaseSpeed()
@@ -80,4 +104,20 @@ public class CameraUpForward : MonoBehaviour
     {
         isPanelClosed = true;
     }
+    void ShowCongratulations()
+    {
+        if (congratulationsText != null)
+        {
+            congratulationsText.gameObject.SetActive(true);
+            congratulationsText.text = "¡Felicitaciones, Soldado!";
+        }
+        else
+        {
+            Debug.LogWarning("Texto de felicitaciones TextMeshPro no asignado en el Inspector.");
+        }
+
+        
+        isPanelClosed = false;
+    }
+
 }
