@@ -26,10 +26,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private ParticleSystem particulas;
 
     
-    /*private void Awake() {
+    private void Awake() {
         
         audiomanager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-    }*/
+    }
     
 
     //private int jumpsRemainig =1;
@@ -109,7 +109,7 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity += dir * jumpForce;
 
         particulas.Play();
-        //audiomanager.PlaySFX(audiomanager.Jump);
+        audiomanager.PlaySFX(audiomanager.Jump);
          
         
     }
